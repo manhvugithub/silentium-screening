@@ -1,0 +1,51 @@
+.main-game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.main-game__play {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-game__play__other {
+    display: flex;
+    flex-direction: column;
+}
+
+.play-button {
+    border-radius: 50%;
+    margin: 20px;
+    background-color: white;
+}
+
+.play-button-other {
+    width: 100px;
+    height: 100px;
+}
+
+.main-game__play__blue {
+    align-items: center;
+    align-self: center;
+}
+
+.play-button-blue {
+    width: 130px;
+    height: 130px;
+}
+
+.main-game__reset-button {
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    background-color: white;
+}
+
+.play-button--selected {
+    background-color: red;
+}
